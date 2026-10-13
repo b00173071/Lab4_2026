@@ -62,5 +62,9 @@ public class QueueArrayBased implements QueueInterface {
                               "Queue empty");
     }  // end if
   }  // end peek
+  
+  public void displayQueue(){
+	
+	}
    
 } // end QueueArrayBased
