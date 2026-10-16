@@ -8,4 +8,11 @@ public class PrintJob {
 		this.doc_name=doc_name;
 		this.num_pages=num_pages;
 	}
+	
+    @Override
+    public String toString() {
+        return "ID=" + id +
+               ", Document=" + doc_name +
+               ", Pages=" + num_pages;
+    }
 }

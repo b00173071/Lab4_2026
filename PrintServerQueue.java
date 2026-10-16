@@ -6,7 +6,8 @@ public class PrintServerQueue {
 
         Scanner scanner = new Scanner(System.in);
         QueueArrayBased queue = new QueueArrayBased();
-
+        PrintJob job = new PrintJob("12345", "Apple", "5");
+        queue.enqueue(job);
         int choice = 0;
 
         while (choice != 6) {
